@@ -1,0 +1,42 @@
+.primary {
+  align-items:center;
+  align-content: center;
+  align-self: center;
+  background-color: lighten(gray, 40);
+}
+
+.hillaryPrimary{
+  background-color:blue;
+  text-align:center;
+  color:red;
+  height:20%;
+  font-size:180%
+
+}
+
+
+.trumpPrimary{
+  background-color:red;
+  text-align:center;
+  color:blue;
+  height:20%;
+  font-size:180%
+}
+
+.undecidedPrim{
+  background-color:gray;
+  text-align:center;
+  height:20%;
+
+}
+
+.voteWho{
+  text-align:left;
+  font-size:180%;
+  color:gray;
+}
+
+.when{
+  font-size:180%;
+  color:green;
+}

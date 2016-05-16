@@ -1,0 +1,26 @@
+<!--
+  Generated template for the PrimaryPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-navbar *navbar>
+  <ion-title>Presidental Election</ion-title>
+</ion-navbar>
+
+<ion-content padding class="primary">
+  <img src="images/NationalDemPrim.JPG"/>
+
+
+  <div class="hillaryPrimary" style="width:{{voteHill}}%">Hillary: {{voteHill}}%</div>
+
+
+  <br>
+  <div class="trumpPrimary" style="width:{{voteTrump}}%">Trump: {{voteTrump}}%</div>
+  <br>
+  <div class="undecidedPrim" style="width:{{voteWho}}%"></div><div class="voteWho">Undecided: {{voteWho}}%</div>
+  <br>
+  <div class="when">
+    Last updated: {{updated}}
+  </div>
+</ion-content>

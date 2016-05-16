@@ -1,0 +1,24 @@
+<!--
+  Generated template for the TrumpPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-navbar *navbar>
+  <ion-title>Republicans</ion-title>
+</ion-navbar>
+
+<ion-content padding class="trumpPage">
+  <img src = "images/NationalGOPprim.JPG"/>
+
+  <div class="trumpGop" style="width:{{trumpVote}}%">Trump: {{trumpVote}}%</div>
+
+  <br>
+  <div class="cruzGop" style="width:{{cruzVote}}%">Cruz: {{cruzVote}}%</div>
+  <br>
+  <div class="kasichGop" style="width:{{kasichVote}}%"></div><div class="poorKas">Kasich: {{kasichVote}}%</div>
+  <br>
+  <div class="when">
+    Last updated: {{updated}}
+  </div>
+</ion-content>

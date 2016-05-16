@@ -1,0 +1,55 @@
+<ion-navbar *navbar>
+    <ion-title>
+        Party Front-Runner Polls!
+    </ion-title>
+</ion-navbar>
+
+<ion-content class="home">
+
+
+
+
+  <ion-list>
+    <ion-item>
+    <ion-avatar item-left>
+<img src="images/trump.png"/>
+    </ion-avatar>
+    <h2>Donald Trump</h2>
+
+      <button danger [navPush]="trumpPage" (click)="buttonClicked()">
+        <ion-icon name="star">  </ion-icon>
+        National GOP Primary&nbsp;
+          <ion-icon name="star">  </ion-icon>
+      </button>
+    </ion-item>
+
+    <ion-item>
+    <ion-avatar item-left>
+      <img src="images/clinton.jpg">
+    </ion-avatar>
+    <h2>Hillary Clinton</h2>
+
+    <button [navPush]="hillaryPage" (click)="buttonClicked()">
+        <ion-icon name="star">  </ion-icon>
+      National Dem Primary&nbsp;
+          <ion-icon name="star">  </ion-icon>
+        </button>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="images/flag.gif">
+      </ion-avatar>
+      <h2> General Election </h2>
+      <button secondary [navPush]="primaryPage" (click)="buttonClicked()">
+          <ion-icon name="star">  </ion-icon>
+        Gen Election Poll&nbsp;
+          <ion-icon name="star">  </ion-icon>
+      </button>
+
+    </ion-item>
+  </ion-list>
+
+
+
+</ion-content>
